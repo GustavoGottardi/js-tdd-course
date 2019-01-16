@@ -1,0 +1,33 @@
+{
+  "name": "js-tdd-course",
+  "version": "1.0.0",
+  "description": "JS TDD Course",
+  "main": "index.js",
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint src/*.js",
+    "prepush": "npm run lint",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GustavoGottardi/js-tdd-course.git"
+  },
+  "keywords": [
+    "js",
+    "tdd",
+    "course",
+    "javascript"
+  ],
+  "author": "Gustavo Gottardi <gugottardi@gmail.com> (http://gustavogottardi.com.br/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GustavoGottardi/js-tdd-course/issues"
+  },
+  "homepage": "https://github.com/GustavoGottardi/js-tdd-course#readme",
+  "devDependencies": {
+    "eslint": "^5.12.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "husky": "^1.3.1"
+  }
+}
